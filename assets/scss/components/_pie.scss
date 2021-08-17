@@ -1,0 +1,47 @@
+footer{
+    height: 12.5rem;
+    font-size: 1.5em; 
+    font-weight: 300;
+    text-align: center;
+    padding: 2rem 1.25rem 1.25rem 4.37rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    line-height: 30px;
+    background-image: linear-gradient(#DCDCDC,#b8b3b3);
+    footer h3{
+        color: #ff8000;
+        font-size: 2.1rem;
+        font-weight: normal;
+    }
+    footer p{
+        margin-top: 1.2rem;
+    }
+    footer h4{
+        font-size: 2rem;
+        font-weight: normal;
+        color: #fd7f00;
+        margin-top: 1.2rem;
+    
+    }
+    .redes{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+    
+    footer li{
+        list-style-type: none;
+        font-size: 1.2rem;
+        margin-top: 1.2rem;
+        margin-right: 1.2rem;
+        
+        
+    }
+    footer li a{
+        color: #000000;
+        text-decoration: none;
+    }
+    
+}

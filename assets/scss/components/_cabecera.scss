@@ -1,0 +1,38 @@
+header{
+    h1{
+        color: #FF7C00;
+        font-size: 4em; 
+        font-weight: 400;
+        letter-spacing: 3px;
+        text-align: left;
+        padding-top: 1.25rem;
+        margin-left: 4rem;
+        margin-bottom: 3rem;
+    }
+    nav{
+        font-size: 16px;
+        background-color: black;
+        ul{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+    }
+    
+    .navBar{
+        font-size: 1em;
+        border: solid #000000;
+        color: #DCDCDC;
+        list-style-type: none;
+        a{
+            color: #000000;
+            font-size: 1.3em;  
+            font-weight:400;
+            text-decoration: none;
+            color: #FFFFFF;
+        
+        }
+    
+    }
+     
+}

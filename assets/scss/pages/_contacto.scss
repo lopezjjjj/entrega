@@ -1,0 +1,57 @@
+body{
+    font-size: 16px;
+    background-color: #DCDCDC;
+    display: grid;
+    grid-gap: 1.25em;
+    grid-template-areas: "header header header"
+                         " main main main"
+                         "footer footer footer";
+    
+}
+header {
+    grid-area: header;
+    
+
+}
+ main {
+    grid-area: main;
+    form{
+        font-size: 2rem; 
+        font-weight:300;
+        margin:  3rem auto;
+        max-width: 40rem; 
+        
+        fieldset{
+            background-color:#bbbbbb;
+            padding-left: 100px;
+            padding-bottom: 50px;
+            legend{
+                font-size: 2.5rem;
+                
+                
+            }
+            label{
+                font-size: 18px;
+                margin-left: 1.25rem;
+                margin-bottom: 1rem;
+            
+            }
+            textarea{
+                width: 18,75rem;
+                margin-top: 1.25rem;
+                margin-left: 1.25rem;
+                margin-bottom: 0.62rem;
+            }
+            .boton{
+                margin-left: 1.25rem;
+            }
+           
+        }
+    }
+
+}
+ footer{
+    grid-area: footer;
+    
+
+}
